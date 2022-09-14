@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="icons/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="icons/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/8f2590edf8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>OLIOS</title>
+  </head>
+  <body>
+    <div class="menu">
+      <label class="menu__block">
+        <input type="checkbox" checked />
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+      </label>
+    </div>
+
+    <div class="navigation">
+      <a href="/" class="navigation__logo">
+        <img src="icons/nav/logo.png" alt="#" />
+      </a>
+      <nav class="navigation__content">
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a href="/" class="navigation__list-icon">
+              <i class="fa-sharp fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li class="navigation__list-item">
+            <span class="navigation__counter">99+</span>
+            <a href="basket.html" class="navigation__list-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="search.html" class="navigation__list-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="contacts.html" class="navigation__list-icon navigation__list-icon-active">
+              <i class="fa-solid fa-headset"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="categories">
+      <ul class="categories__wrapper">
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">LIVING ROOM</div>
+            <div class="categories__img"><img src="icons/categories/living.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">OFFICE</div>
+            <div class="categories__img"><img src="icons/categories/office.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">FOR KIDS</div>
+            <div class="categories__img"><img src="icons/categories/kids.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">KITCHEN</div>
+            <div class="categories__img"><img src="icons/categories/kitcen.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">ACCESORIES</div>
+            <div class="categories__img"><img src="icons/categories/accesories.png" alt="#" /></div>
+          </a>
+        </li>
+      </ul>
+      <a href="products.html" class="categories__all">SHOW ALL CATEGORIES</a>
+      <div class="categories__divider"></div>
+    </div>
+
+    <section class="contacts">
+      <div class="container">
+        <h2 class="title">Contact Us</h2>
+        <h3 class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate</h3>
+        <form class="form contacts__form">
+          <div class="form-input_l contacts__form-input_l">
+            <label for="topic">Topic</label>
+            <select name="topic" id="topic">
+              <option value="Lorem">Lorem ipsum</option>
+              <option value="Lorem">Lorem ipsum</option>
+              <option value="Lorem">Lorem ipsum</option>
+            </select>
+          </div>
+          <div class="contacts__form-input">
+            <label for="name">NAME</label>
+            <input required id="name" name="name" type="text" />
+          </div>
+          <div class="contacts__form-input">
+            <label for="email">EMAIL</label>
+            <input required id="email" name="email" type="text" />
+          </div>
+          <div class="form-input_l contacts__form-input_l">
+            <label for="message">message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button class="button contacts__button">SEND</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

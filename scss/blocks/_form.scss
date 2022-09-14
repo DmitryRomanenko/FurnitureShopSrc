@@ -1,0 +1,42 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 280px);
+  grid-auto-rows: minmax(70px, auto);
+  justify-content: center;
+  column-gap: 20px;
+  label {
+    display: block;
+    font-size: 12px;
+    line-height: 43px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #606060;
+  }
+  input,
+  select,
+  textarea {
+    width: 100%;
+    border-radius: 10px;
+    height: 42px;
+    border: 1px solid #c2c2c2;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: 43px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #606060;
+    @media (max-width: 576px) {
+      font-size: 12px;
+    }
+  }
+  textarea {
+    resize: none;
+    height: 150px;
+  }
+  &-input {
+    &_l {
+      grid-column: 1 / 3;
+    }
+  }
+}

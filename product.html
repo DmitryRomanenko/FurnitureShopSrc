@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="icons/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="icons/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/8f2590edf8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>OLIOS</title>
+  </head>
+  <body>
+    <div class="menu">
+      <label class="menu__block">
+        <input type="checkbox" checked />
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+      </label>
+    </div>
+
+    <div class="navigation">
+      <a href="/" class="navigation__logo">
+        <img src="icons/nav/logo.png" alt="#" />
+      </a>
+      <nav class="navigation__content">
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a href="/" class="navigation__list-icon">
+              <i class="fa-sharp fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li class="navigation__list-item">
+            <span class="navigation__counter">99+</span>
+            <a href="basket.html" class="navigation__list-icon"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="search.html" class="navigation__list-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="contacts.html" class="navigation__list-icon">
+              <i class="fa-solid fa-headset"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="categories">
+      <ul class="categories__wrapper">
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">LIVING ROOM</div>
+            <div class="categories__img"><img src="icons/categories/living.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">OFFICE</div>
+            <div class="categories__img"><img src="icons/categories/office.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">FOR KIDS</div>
+            <div class="categories__img"><img src="icons/categories/kids.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">KITCHEN</div>
+            <div class="categories__img"><img src="icons/categories/kitcen.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">ACCESORIES</div>
+            <div class="categories__img"><img src="icons/categories/accesories.png" alt="#" /></div>
+          </a>
+        </li>
+      </ul>
+      <a href="products.html" class="categories__all">SHOW ALL CATEGORIES</a>
+      <div class="categories__divider"></div>
+    </div>
+
+   <section class="product">
+      <div class="product__wrapper">
+        <div class="product__photo">
+          <div class="product__like">
+            <span>495</span>
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="product__img">
+            <img src="img/products/whiteSeat.png" alt="#">
+          </div>
+          <div class="product__options">
+            <div class="product__options-size">
+              <div class="product__add">
+                <i class="fa-solid fa-circle-plus"></i>
+              </div>
+              <div class="product__remove">
+                <i class="fa-solid fa-circle-minus"></i>
+              </div>
+            </div>
+            <div class="product__options-icons">
+              <div class="product__map">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__descr">
+        <div class="page-info page-info-product">
+          <h2 class="page-info__title page-info__title-product">PRODUCTS</h2>
+          <div class="page-info__block  page-info__block-product">
+            <div class="page-info__text">LIVING ROOM</div>
+            <div class="page-info__img">
+              <img src="icons/categories/living.png" alt="#" />
+            </div>
+          </div>
+        </div>
+        <div class="product__info">
+          <h2 class="product__info-title">WHITE SEAT - <span>OFFICE</span></h2>
+          <div class="product__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis.</div>
+          <div class="product__info-wrapper">
+            <div class="product__info-cost">
+              <div class="product__info-cost-text">COST</div>
+              <div class="product__info-cost-price">
+                $65 <span>$90</span>
+              </div>
+            </div>
+            <form class="product__info-form">
+              <div class="product__info-form-text">QUANTITY</div>
+              <input min="1" max="10" required type="number">
+              <button class="product__info-button">ADD TO CARD</button>
+            </form>
+          </div>
+        </div>
+        <div class="product__recomended">
+          <div class="product__recomended-wrapper">
+            <a href="#" class="product__recomended-block">
+              <div class="product__recomended-img">
+                <img src="img/products/darkSeat.png" alt="#">
+              </div>
+              <h3 class="product__recomended-title">DARK SEAT</h3>
+              <div class="product__recomended-descr">Lorem ipsum dolor sit amet</div>
+            </a>
+            <a href="#"  class="product__recomended-block">
+              <div class="product__recomended-img">
+                <img src="img/products/redChair.png" alt="#">
+              </div>
+              <h3 class="product__recomended-title">RED SEAT</h3>
+              <div class="product__recomended-descr">Lorem ipsum dolor sit amet</div>
+            </a>
+            <a href="#"  class="product__recomended-block">
+              <div class="product__recomended-img">
+                <img src="img/products/blueSeat.png" alt="#">
+              </div>
+              <h3 class="product__recomended-title">BLUE SEAT</h3>
+              <div class="product__recomended-descr">Lorem ipsum dolor sit amet</div>
+            </a>
+            <a href="#"  class="product__recomended-block">
+              <div class="product__recomended-img">
+                <img src="img/products/darkSeat.png" alt="#">
+              </div>
+              <h3 class="product__recomended-title">DARK SEAT</h3>
+              <div class="product__recomended-descr">Lorem ipsum dolor sit amet</div>
+            </a>
+            <a href="#"  class="product__recomended-block">
+              <div class="product__recomended-img">
+                <img src="img/products/redChair.png" alt="#">
+              </div>
+              <h3 class="product__recomended-title">RED SEAT</h3>
+              <div class="product__recomended-descr">Lorem ipsum dolor sit amet</div>
+            </a>
+            <a href="#"  class="product__recomended-block">
+              <div class="product__recomended-img">
+                <img src="img/products/blueSeat.png" alt="#">
+              </div>
+              <h3 class="product__recomended-title">BLUE SEAT</h3>
+              <div class="product__recomended-descr">Lorem ipsum dolor sit amet</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

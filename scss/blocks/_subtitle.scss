@@ -1,0 +1,18 @@
+.subtitle {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 500px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #a8a8a8;
+  @media (max-width: 768px) {
+    margin-top: 10px;
+  }
+  @media (max-width: 576px) {
+    font-size: 14px;
+    max-width: 400px;
+  }
+}

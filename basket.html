@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="icons/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="icons/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/8f2590edf8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>OLIOS</title>
+  </head>
+  <body>
+    <div class="menu">
+      <label class="menu__block">
+        <input type="checkbox" checked />
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+      </label>
+    </div>
+
+    <div class="navigation">
+      <a href="/" class="navigation__logo">
+        <img src="icons/nav/logo.png" alt="#" />
+      </a>
+      <nav class="navigation__content">
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a href="/" class="navigation__list-icon">
+              <i class="fa-sharp fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li class="navigation__list-item">
+            <span class="navigation__counter">99+</span>
+            <a href="basket.html" class="navigation__list-icon navigation__list-icon-active"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="search.html" class="navigation__list-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="contacts.html" class="navigation__list-icon">
+              <i class="fa-solid fa-headset"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="categories">
+      <ul class="categories__wrapper">
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">LIVING ROOM</div>
+            <div class="categories__img"><img src="icons/categories/living.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">OFFICE</div>
+            <div class="categories__img"><img src="icons/categories/office.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">FOR KIDS</div>
+            <div class="categories__img"><img src="icons/categories/kids.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">KITCHEN</div>
+            <div class="categories__img"><img src="icons/categories/kitcen.png" alt="#" /></div>
+          </a>
+        </li>
+        <li class="categories__item">
+          <a href="products.html">
+            <div class="categories__text">ACCESORIES</div>
+            <div class="categories__img"><img src="icons/categories/accesories.png" alt="#" /></div>
+          </a>
+        </li>
+      </ul>
+      <a href="products.html" class="categories__all">SHOW ALL CATEGORIES</a>
+      <div class="categories__divider"></div>
+    </div>
+
+    <section class="basket">
+      <!-- <div class="basket__empty">
+        <div class="basket__empty__img">
+          <img src="icons/basket/empty.png" alt="#" />
+        </div>
+        <div class="basket__empty-title">Your bag is empty</div>
+        <div class="basket__empty-subtitle">Add something to make me happy :)</div>
+        <button class="button basket__empty-button">
+          <a href="products.html">ADD</a>
+        </button>
+      </div> -->
+      <div class="container">
+        <h2 class="title">Your Shopping Bag</h2>
+        <h3 class="subtitle">Items reserved for limited time only</h3>
+        <div class="basket__wrapper">
+          <div class="basket__product">
+            <div class="basket__product-img">
+              <img src="img/products/whiteSeat.png" alt="#" />
+            </div>
+            <div class="basket__product-descr">
+              <div class="basket__product-title">White SEAT</div>
+              <div class="basket__product-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet soluta alias odio
+                optio illo commodi minima repellendus, vero voluptatibus cum. Laboriosam distinctio,
+                atque quibusdam ipsam maxime perspiciatis voluptate cum excepturi.
+              </div>
+            </div>
+            <input type="number" class="basket__product-qty" />
+            <div class="basket__product-amount">$15499,95</div>
+            <div class="basket__product-delete">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </div>
+          <div class="basket__product">
+            <div class="basket__product-img">
+              <img src="img/products/blueSeat.png" alt="#" />
+            </div>
+            <div class="basket__product-descr">
+              <div class="basket__product-title">BLUE SEAT</div>
+              <div class="basket__product-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicin
+              </div>
+            </div>
+            <input type="number" class="basket__product-qty" />
+            <div class="basket__product-amount">$99,95</div>
+            <div class="basket__product-delete">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </div>
+          <div class="basket__product">
+            <div class="basket__product-img">
+              <img src="img/products/modernBad.jpg" alt="#" />
+            </div>
+            <div class="basket__product-descr">
+              <div class="basket__product-title">Modern Bad</div>
+              <div class="basket__product-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicin
+              </div>
+            </div>
+            <input type="number" class="basket__product-qty" />
+            <div class="basket__product-amount">$99,95</div>
+            <div class="basket__product-delete">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="basket__payment">
+        <div class="container">
+          <h2 class="title">Shipping And Payment</h2>
+          <h3 class="subtitle">All fields are required</h3>
+          <form class="form basket__form">
+            <div class="basket__payment-input">
+              <label for="name">FIRST NAME</label>
+              <input required id="name" name="name" type="text" />
+            </div>
+            <div class="basket__payment-input">
+              <label for="lastName">last name</label>
+              <input required id="lastName" name="lastName" type="text" />
+            </div>
+            <div class="form-input_l basket__form-input_l">
+              <label for="address">Address</label>
+              <input required id="address" name="address" type="text" />
+            </div>
+            <div class="basket__payment-input">
+              <label for="city">city</label>
+              <input required id="city" name="city" type="text" />
+            </div>
+            <div class="basket__payment-input">
+              <label for="postalCode">postal code</label>
+              <input required id="postalCode" name="postalCode" type="text" />
+            </div>
+            <div class="basket__payment-input">
+              <label for="phone">Phone number</label>
+              <input placeholder="+1 999-999-9999" required id="phone" name="phone" type="tel" />
+            </div>
+            <div class="basket__payment-input">
+              <label for="email">e-mail</label>
+              <input required id="email" name="emial" type="email" />
+            </div>
+            <div class="form-input_l basket__form-input_l">
+              <label for="delivery">Select delivery method</label>
+              <select required name="delivery" id="delivery">
+                <option value="value1" selected>lorem ipsum - $15,00</option>
+                <option value="value2">lorem ipsum - $15,00</option>
+                <option value="value3">lorem ipsum - $15,00</option>
+              </select>
+            </div>
+            <div class="form-input_l basket__form-input_l">
+              <label for="payment">Select payment method</label>
+              <select required name="payment" id="payment">
+                <option value="val1" selected>lorem ipsum</option>
+                <option value="val2">lorem ipsum</option>
+              </select>
+            </div>
+            <div class="basket__counter">
+              <div class="basket__payment-subtotal">Subtotal: <span>$567,95</span></div>
+              <div class="basket__payment-shipping">Shipping: <span>$15,00</span></div>
+              <div class="basket__form-total">Total: <span>$582,95</span></div>
+            </div>
+            <button class="button basket__button">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
